@@ -1,8 +1,13 @@
-# Practical Functional Java
-Examples and exercises for the "Practical Functional Java" workshop.
+# Software Craftsmanship - refactoring, test driven development
 
-See [https://jeffgbutler.github.io/practical-functional-java/](https://jeffgbutler.github.io/practical-functional-java/) for detailed instructions. 
+## Źródło
 
-## Exercises
-For all exercises, the basic instructions are "make the tests pass". This may involve uncommenting some failing tests. There are TODO comments in most classes in the "exercises.*" packages with instructions on what to do. See the links above for detailed descriptions of the exercises.
+Zadanie powstało na podstawie opisu warsztatów "Practical Functional Java" na stronie [https://jeffgbutler.github.io/practical-functional-java/](https://jeffgbutler.github.io/practical-functional-java/).
 
+## Zadanie - refactoring
+
+Wykonać refaktoring klasy `AwfulScriptGenerator`. Wszystkie testy z klasy `ScriptGeneratorTest` powinny poprawnie przechodzić. W razie konieczności dodać własne testy.
+
+## Zadanie - test driven development
+
+Zaimplementować metody `toUpperCase`, `calculateOrderSummary`, `calculateTotalOrdered` z klasy `StreamExercises`. Wykorzystać gotowe testy z klasy `StreamTest`, a w razie potrzeby dodać zestaw własnych testów.
